@@ -13,6 +13,8 @@ public class ProdusRun {
         System.out.print("Introduceti cantitatea: ");
         int cantitate = scan.nextInt();
 
+        Produs produs1 = new Produs(nume , pret , cantitate);
+
 
     }
 }

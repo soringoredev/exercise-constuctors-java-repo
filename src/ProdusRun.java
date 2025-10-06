@@ -4,8 +4,14 @@ public class ProdusRun {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        Produs total1 = new Produs("Lapte",20,1 );
-        System.out.println("Achitarea totala este de: " + total1.calculeazaTotalAchitare() +" mdl.");
+        System.out.print("Introduceti numele produsului: ");
+        String nume = scan.nextLine();
+
+        System.out.print("Introduceti pretul produsului: ");
+        double pret = scan.nextDouble();
+
+        System.out.print("Introduceti cantitatea: ");
+        int cantitate = scan.nextInt();
 
 
     }

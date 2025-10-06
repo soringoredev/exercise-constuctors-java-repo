@@ -12,9 +12,14 @@ public class Produs {
     }
 
     public double calculeazaTotalAchitare() {
-        Produs  prod1 = new Produs("Lapte",20,1);
         total = cantitate * pret;
        return total;
+    }
 
+    public void display() {
+        System.out.println("Nume produs: " + nume);
+        System.out.println("Pret: " + pret + "lei");
+        System.out.println("Cantitate: " + cantitate);
+        System.out.println("Total de achitat: " + calculeazaTotalAchitare() + "lei");
     }
 }

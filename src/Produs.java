@@ -18,8 +18,8 @@ public class Produs {
 
     public void display() {
         System.out.println("Nume produs: " + nume);
-        System.out.println("Pret: " + pret + "lei");
+        System.out.println("Pret: " + pret + " lei");
         System.out.println("Cantitate: " + cantitate);
-        System.out.println("Total de achitat: " + calculeazaTotalAchitare() + "lei");
+        System.out.println("Total de achitat: " + calculeazaTotalAchitare() + " lei");
     }
 }

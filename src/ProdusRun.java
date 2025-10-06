@@ -15,6 +15,8 @@ public class ProdusRun {
 
         Produs produs1 = new Produs(nume , pret , cantitate);
 
+        System.out.println("Detalii produs:");
+        produs1.display();
 
     }
 }
